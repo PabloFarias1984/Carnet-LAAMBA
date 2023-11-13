@@ -1,14 +1,20 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .barra{
     background-image: linear-gradient(to right, rgb(43, 53, 140), rgb(134, 184, 224));
+    width: 100%;
 }
 .card2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 90%;
     height: 700px;
     background-image: url(./img/22.png);
     background-size: cover;
